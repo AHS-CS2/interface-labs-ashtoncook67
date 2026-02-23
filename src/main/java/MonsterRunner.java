@@ -10,6 +10,7 @@ public class MonsterRunner
 {
    public static void main( String args[] )
    {
+	/* 
 	Scanner scan = new Scanner(System.in);
 	System.out.println("Enter 1st monster's name : ");
 	Skeleton first = new Skeleton(scan.next());
@@ -24,19 +25,19 @@ public class MonsterRunner
 	System.out.println("Monster 2 - " + second.getName());
 
 	if(first.getHowBig() > second.getHowBig()){
-		System.out.println("\nMonster one is bigger than Monster two");
+		System.out.println("\nMonster one is bigger than Monster two.");
 	}
 	else if(first.getHowBig() < second.getHowBig()){
-		System.out.println("\nMonster one is smaller than Monster two");
+		System.out.println("\nMonster one is smaller than Monster two.");
 	}
 	else{
-		System.out.println("\nMonster one and Monster two are the same size");
+		System.out.println("\nMonster one and Monster two are the same size.");
 	}
 	if(first.namesTheSame(second)){
-		System.out.println("Monster one and Monster two have the same name");
+		System.out.println("Monster one has the same name as Monster two.");
 	}
 	else{
-		System.out.println("Monster one does not have the same name as Monster two");
+		System.out.println("Monster one does not have the same name as Monster two.");
 	}
 
 
@@ -98,10 +99,10 @@ public class MonsterRunner
 	}
 
 
+*/
 
 
-
-	/* 
+	
 		Monster zero = new Monster();
 		Monster one = new Monster(8);
 		Monster sue = new Monster(9, 4);
@@ -134,6 +135,5 @@ public class MonsterRunner
 		out.println(mOne.compareTo(mTwo));
 		out.print("\nmTwo.compareTo(mOne) == ");
 		out.println(mTwo.compareTo(mOne));
-		*/
 	}
 }

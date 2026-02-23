@@ -33,19 +33,19 @@ public class Skeleton implements Monster_i {
 	public String getName(){
 		return name;
 	}
-	public boolean isBigger(Monster other){
+	public boolean isBigger(Skeleton other){
 		if(size > other.getHowBig()){
 			return true;
 		}
 		return false;
 	}
-	public boolean isSmaller(Monster other){
+	public boolean isSmaller(Skeleton other){
 		if(size < other.getHowBig()){
 			return true;
 		}
 		return false;
 	}
-	public boolean namesTheSame(Monster other){
+	public boolean namesTheSame(Skeleton other){
 		if(name.equals(other.getName())){
 			return true;
 		}
