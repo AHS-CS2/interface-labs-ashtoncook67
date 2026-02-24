@@ -99,10 +99,10 @@ public class MonsterRunner
 	}
 
 
-*/
 
 
-	
+
+	*/ 
 		Monster zero = new Monster();
 		Monster one = new Monster(8);
 		Monster sue = new Monster(9, 4);
