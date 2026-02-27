@@ -4,11 +4,14 @@
 
 import static java.lang.System.*;
 
+import java.util.ArrayList;
+
 public class RomanNumeralRunner
 {
 	public static void main( String args[] )
 	{
 		RomanNumeral test = new RomanNumeral(10);
+		ArrayList<RomanNumeral> demo = new ArrayList<>();
 		out.println("10 is " + test.toString());
 
 		test.setNumber(100);

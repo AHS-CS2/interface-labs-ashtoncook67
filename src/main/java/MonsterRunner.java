@@ -4,10 +4,105 @@
 
 import static java.lang.System.*;
 
+import java.util.Scanner;
+
 public class MonsterRunner
 {
    public static void main( String args[] )
    {
+	/* 
+	Scanner scan = new Scanner(System.in);
+	System.out.println("Enter 1st monster's name : ");
+	Skeleton first = new Skeleton(scan.next());
+	System.out.println("Enter 1st monster's size : ");
+	first.setSize(scan.nextInt());
+	System.out.println("Enter 2nd monster's name : ");
+	Skeleton second = new Skeleton(scan.next());
+	System.out.println("Enter 2nd monster's size : ");
+	second.setSize(scan.nextInt());
+
+	System.out.println("\nMonster 1 - " + first.getName());
+	System.out.println("Monster 2 - " + second.getName());
+
+	if(first.getHowBig() > second.getHowBig()){
+		System.out.println("\nMonster one is bigger than Monster two.");
+	}
+	else if(first.getHowBig() < second.getHowBig()){
+		System.out.println("\nMonster one is smaller than Monster two.");
+	}
+	else{
+		System.out.println("\nMonster one and Monster two are the same size.");
+	}
+	if(first.namesTheSame(second)){
+		System.out.println("Monster one has the same name as Monster two.");
+	}
+	else{
+		System.out.println("Monster one does not have the same name as Monster two.");
+	}
+
+
+	System.out.println("Enter 1st monster's name : ");
+	first.setName(scan.next());
+	System.out.println("Enter 1st monster's size : ");
+	first.setSize(scan.nextInt());
+	System.out.println("Enter 2nd monster's name : ");
+	second.setName(scan.next());
+	System.out.println("Enter 2nd monster's size : ");
+	second.setSize(scan.nextInt());
+
+	System.out.println("\nMonster 1 - " + first.getName());
+	System.out.println("Monster 2 - " + second.getName());
+
+	if(first.getHowBig() > second.getHowBig()){
+		System.out.println("\nMonster one is bigger than Monster two");
+	}
+	else if(first.getHowBig() < second.getHowBig()){
+		System.out.println("\nMonster one is smaller than Monster two");
+	}
+	else{
+		System.out.println("\nMonster one and Monster two are the same size");
+	}
+	if(first.namesTheSame(second)){
+		System.out.println("Monster one and Monster two have the same name");
+	}
+	else{
+		System.out.println("Monster one does not have the same name as Monster two");
+	}
+
+
+	System.out.println("Enter 1st monster's name : ");
+	first.setName(scan.next());
+	System.out.println("Enter 1st monster's size : ");
+	first.setSize(scan.nextInt());
+	System.out.println("Enter 2nd monster's name : ");
+	second.setName(scan.next());
+	System.out.println("Enter 2nd monster's size : ");
+	second.setSize(scan.nextInt());
+
+	System.out.println("\nMonster 1 - " + first.getName());
+	System.out.println("Monster 2 - " + second.getName());
+
+	if(first.getHowBig() > second.getHowBig()){
+		System.out.println("\nMonster one is bigger than Monster two");
+	}
+	else if(first.getHowBig() < second.getHowBig()){
+		System.out.println("\nMonster one is smaller than Monster two");
+	}
+	else{
+		System.out.println("\nMonster one and Monster two are the same size");
+	}
+	if(first.namesTheSame(second)){
+		System.out.println("Monster one and Monster two have the same name");
+	}
+	else{
+		System.out.println("Monster one does not have the same name as Monster two");
+	}
+
+
+
+
+
+	*/ 
 		Monster zero = new Monster();
 		Monster one = new Monster(8);
 		Monster sue = new Monster(9, 4);
